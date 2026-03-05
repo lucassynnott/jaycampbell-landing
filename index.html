@@ -1798,6 +1798,276 @@
           margin-top: 10px;
         }
       }
+
+      @media (max-width: 520px) {
+        :root {
+          --headline-gap: 20px;
+        }
+
+        .container {
+          width: min(100% - 16px, 1240px);
+        }
+
+        .site-header {
+          backdrop-filter: blur(14px);
+        }
+
+        .header-inner {
+          min-height: 68px;
+          gap: 12px;
+        }
+
+        .brand img {
+          width: 136px;
+        }
+
+        .menu-toggle {
+          font-size: 0.76rem;
+          letter-spacing: 0.16em;
+        }
+
+        .hero-grid {
+          gap: 24px;
+          min-height: auto;
+          padding: 18px 0 24px;
+        }
+
+        .eyebrow {
+          width: 100%;
+          justify-content: flex-start;
+          margin-bottom: 16px;
+          padding: 10px 12px;
+          font-size: 0.72rem;
+          letter-spacing: 0.09em;
+        }
+
+        .hero h1 {
+          font-size: clamp(2.65rem, 13vw, 3.6rem);
+          line-height: 0.9;
+        }
+
+        .hero-lede {
+          margin-top: 20px;
+          font-size: 1.03rem;
+          line-height: 1.6;
+        }
+
+        .hero-cta {
+          gap: 12px;
+          margin-top: 22px;
+        }
+
+        .hero-cta .button,
+        .hero-copy > .button,
+        .cta-panel .hero-cta .button {
+          width: 100%;
+        }
+
+        .hero-point {
+          padding-left: 12px;
+          font-size: 0.95rem;
+        }
+
+        .metrics {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 18px 12px;
+          margin-top: 24px;
+        }
+
+        .metric {
+          padding-left: 10px;
+        }
+
+        .metric strong {
+          font-size: 1.95rem;
+        }
+
+        .hero-visual {
+          min-height: 320px;
+        }
+
+        .portrait-shell {
+          min-height: 360px;
+          padding: 14px 12px 0;
+          border-radius: 26px;
+        }
+
+        .hero-badge {
+          padding: 12px 12px 14px;
+          border-radius: 18px;
+        }
+
+        .hero-badge span {
+          font-size: 0.84rem;
+        }
+
+        .hero-badge strong {
+          font-size: 0.68rem;
+        }
+
+        .hero-portrait {
+          right: 8px;
+          width: min(290px, calc(100% - 34px));
+        }
+
+        .featured-in {
+          padding: 18px 0 20px;
+        }
+
+        .logo-grid {
+          gap: 8px;
+        }
+
+        .logo-item {
+          min-height: 62px;
+          padding: 6px;
+        }
+
+        .logo-item img {
+          max-height: 38px;
+        }
+
+        h2 {
+          font-size: clamp(2.1rem, 12vw, 3rem);
+          line-height: 0.92;
+        }
+
+        .problem,
+        .proof,
+        .assessment,
+        .solution,
+        .offer-detail,
+        .authority,
+        .final-cta {
+          padding: 64px 0;
+        }
+
+        .problem-layout,
+        .offer-layout,
+        .assessment-layout,
+        .authority-layout {
+          gap: 24px;
+        }
+
+        .problem-quote,
+        .offer-note {
+          margin-top: 22px;
+        }
+
+        .pain-grid,
+        .solution-grid,
+        .results-strip,
+        .testimonial-grid,
+        .authority-stats {
+          gap: 16px;
+        }
+
+        .pain-card,
+        .solution-card,
+        .testimonial-card,
+        .offer-card,
+        .assessment-form,
+        .authority-frame,
+        .result-card {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+
+        .pain-card {
+          padding-top: 24px;
+          padding-bottom: 24px;
+        }
+
+        .solution-card {
+          padding-top: 24px;
+          padding-bottom: 24px;
+        }
+
+        .solution-card .step {
+          width: 42px;
+          height: 42px;
+          margin-bottom: 14px;
+          font-size: 1.6rem;
+        }
+
+        .solution-card h3,
+        .pain-card h3,
+        .assessment-form h3 {
+          font-size: 1.95rem;
+        }
+
+        .result-card figcaption {
+          padding: 16px 16px 18px;
+        }
+
+        .result-card strong {
+          font-size: 1.6rem;
+        }
+
+        .offer-card {
+          padding-top: 28px;
+          padding-bottom: 24px;
+        }
+
+        .price strong {
+          font-size: 4.2rem;
+        }
+
+        .assessment-form {
+          padding-top: 28px;
+          padding-bottom: 24px;
+        }
+
+        .field input {
+          min-height: 54px;
+          padding-inline: 16px;
+        }
+
+        .authority-frame {
+          padding-top: 20px;
+        }
+
+        .authority-portrait {
+          width: min(320px, 100%);
+        }
+
+        .authority-inset {
+          padding: 12px;
+          border-radius: 18px;
+        }
+
+        .authority-inset img {
+          width: 68px;
+          height: 68px;
+          border-radius: 14px;
+        }
+
+        .authority-inset strong {
+          font-size: 1.4rem;
+        }
+
+        .authority-stat {
+          padding: 16px 14px;
+          border-radius: 18px;
+        }
+
+        .authority-stat strong {
+          font-size: 2.2rem;
+        }
+
+        .cta-panel {
+          padding: 28px 18px;
+          border-radius: 28px;
+        }
+
+        .footer {
+          padding: 28px 0 34px;
+        }
+
+        .footer-inner {
+          gap: 10px;
+        }
+      }
     </style>
   </head>
   <body>
